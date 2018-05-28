@@ -7,7 +7,7 @@ const server = hapi.server({
 })
 
 // https://mlab.com api
-mongoose.connect('mongodb://<db-user>:<db-pass>@ds135760.mlab.com:35760/<db-name>')
+mongoose.connect('mongodb://theerayut:teer@ds135760.mlab.com:35760/theerayut69-api')
 
 mongoose.connection.once('open', ()=>{
     console.log('connected to database')
